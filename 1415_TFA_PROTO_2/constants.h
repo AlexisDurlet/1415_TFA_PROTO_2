@@ -1,0 +1,29 @@
+#ifndef	 CONSTANTS_H_INCLUDED
+#define  CONSTANTS_H_INCLUDED
+
+
+const float DEFAULT_PROJECTILE_SPEED = 150;
+const int MAX_PROJECTILES = 27;
+
+const float PLAYER_TARGET_RADIUS = 20;
+
+const int PLAYER_MODULES_NUMBER = 3;
+const int PLAYER_ALLIES_CELLS_NUMBER = 8;
+const int PLAYER_ALLIES_CELLS_RANK = 3;
+const int PLAYER_ALLIES_CELLS_LIFE = 30;
+const float PLAYER_ALLIES_CELLS_ANGULAR_SPEED = -20;
+const float PLAYER_ALLIES_CELLS_RADIUS = 5;
+const float PLAYER_MODULE_RADIUS = 6;
+
+const float PLAYER_FIRE_RATE = 15;
+const float PLAYER_PROJECTILES_RADIUS = 1.5;
+
+const float ENEMY_RADIUS = 7;
+const int ENEMY_LIFE = 5;
+const int ENEMY_INFECTION_SPEED = 20;
+
+const int ARCHIMEDES_SPIRAL_A_ARBITRARY_CONSTANT = -30;  //
+const int ARCHIMEDES_SPIRAL_B_ARBITRARY_CONSTANT = 4;   // tweaked on a graph calculator to match the screen size
+const float ARCHIMEDES_SPIRAL_BEGIN_ANGLE = 15.5 * 180; //
+
+#endif

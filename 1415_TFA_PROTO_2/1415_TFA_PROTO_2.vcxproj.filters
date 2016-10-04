@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="circle.cpp">
+      <Filter>custom types</Filter>
+    </ClCompile>
+    <ClCompile Include="player_module.cpp">
+      <Filter>custom types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\main\lib\flib\flib.cpp" />
+    <ClCompile Include="..\..\main\lib\flib\flib_vec2.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="movable_circle.cpp">
+      <Filter>custom types</Filter>
+    </ClCompile>
+    <ClCompile Include="projectile.cpp">
+      <Filter>custom types</Filter>
+    </ClCompile>
+    <ClCompile Include="shooting_entity.cpp">
+      <Filter>custom types</Filter>
+    </ClCompile>
+    <ClCompile Include="time.cpp">
+      <Filter>custom types</Filter>
+    </ClCompile>
+    <ClCompile Include="player_target.cpp">
+      <Filter>custom types</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>custom types</Filter>
+    </ClCompile>
+    <ClCompile Include="collider_circle.cpp">
+      <Filter>custom types</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>custom types</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_wave.cpp">
+      <Filter>custom types</Filter>
+    </ClCompile>
+    <ClCompile Include="cell.cpp">
+      <Filter>custom types</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="player_module.h">
+      <Filter>custom types</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h" />
+    <ClInclude Include="circle.h">
+      <Filter>custom types</Filter>
+    </ClInclude>
+    <ClInclude Include="movable _circle.h">
+      <Filter>custom types</Filter>
+    </ClInclude>
+    <ClInclude Include="projectile.h">
+      <Filter>custom types</Filter>
+    </ClInclude>
+    <ClInclude Include="shooting_entity.h">
+      <Filter>custom types</Filter>
+    </ClInclude>
+    <ClInclude Include="time.h">
+      <Filter>custom types</Filter>
+    </ClInclude>
+    <ClInclude Include="player_target.h">
+      <Filter>custom types</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>custom types</Filter>
+    </ClInclude>
+    <ClInclude Include="collider_circle.h">
+      <Filter>custom types</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>custom types</Filter>
+    </ClInclude>
+    <ClInclude Include="e_trajectories.h">
+      <Filter>custom types</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_wave.h">
+      <Filter>custom types</Filter>
+    </ClInclude>
+    <ClInclude Include="cell.h">
+      <Filter>custom types</Filter>
+    </ClInclude>
+    <ClInclude Include="e_cell_state.h">
+      <Filter>custom types</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="custom types">
+      <UniqueIdentifier>{50e5fe3a-9e3a-487d-a5df-ee74df1878fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
